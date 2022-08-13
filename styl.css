@@ -1,0 +1,309 @@
+.my-project {
+    visibility: hidden;
+}
+
+.about-img img {
+        box-shadow: 0 4px 8px 0 rgba(248, 243, 245, 0.4);
+        text-align: center;
+       border-radius: 3px;
+}
+
+form h2 {
+    color: rgba(254, 248, 243, 0.9);
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.btn-2 {
+    text-align: center;
+    position: relative;
+    left: 20px;
+}
+
+form input::placeholder {
+    padding: 10px;
+    font-weight: 700;
+}
+
+form textarea::placeholder {
+    font-size: 1.1rem;
+    /* padding: 10px; */
+}
+
+form input {
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    border: 2px groove rgba(254, 248, 243, 1);
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+
+form button {
+    width: 70%;
+    height: 30px;
+    background-color: #CEF09D;
+    color: black;
+    border: none;
+    font-size: .9rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.section div {
+    margin-top: 29px;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-github:hover {
+    color: #171515;
+}
+
+.fa-linkedin:hover {
+   color: #0072b1;
+}
+
+.fa-envelope:hover {
+    color: #EA4335;
+}
+
+.section a i {
+    font-size: 2.3rem;
+}
+
+.section div h1 {
+    display: flex;
+    justify-content: center;
+    color: rgba(254, 248, 243, 0.9);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 1rem;
+   color: rgba(254, 248, 243, 0.7);
+    
+}
+
+.section nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form button i {
+    padding-left: 10px;
+    /* color: white; */
+}
+
+form textarea {
+    width: 80%;
+    border-radius: 3px;
+    border: 2px solid rgba(254, 248, 243, 1);
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #CEF09D;
+    width: 50%;
+    margin: auto;
+    height: 450px;
+    border-radius: 3px;
+    box-shadow: 0 0 30px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 250px) and (max-width: 500px) {
+    form {
+        width: 90%;
+    }
+}
+
+
+footer {
+    padding-bottom: 30px;
+}
+
+.about-img {
+    text-align: center;
+}
+.about-me{
+    color: rgba(254, 248, 243, 1);
+    margin-left: 60px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+
+.skills {
+    margin: 90px;
+    color: rgba(254, 248, 243, 1);
+}
+
+.about-msg {
+    color: rgba(254, 248, 243, 0.9);
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.one i, .two i, .three i, .four i, .five i, .seven i{
+    font-size: 4rem;
+    color: black;
+    background-color: rgba(254, 248, 243, 0.7);
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.one i:hover, .two i:hover, .three i:hover, .four i:hover, .five i:hover, .seven i:hover {
+    background-color: rgba(254, 248, 243, 1);
+}
+
+.one i , .two i{
+    padding-left: 15px;
+}
+
+.seven i {
+    padding-left: 15px;
+}
+
+.one i:hover {
+    color: #ff0000;
+}
+.two i:hover {
+    color: #264de4;
+}
+.three i:hover {
+    color: rgb(240, 219, 79);
+}
+.four i:hover {
+    color: rgb(97, 219, 251);
+}
+.five i:hover {
+    color: #f1502f;
+}
+
+.three i {
+    padding-left: 13px;
+}
+
+
+.skills-set {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.six img {
+    height: 80px;
+    width: 82px;
+   background-color: rgba(254, 248, 243, 0.7);
+    color: black;
+    filter: grayscale(120%);
+    border-radius: 3px;
+    z-index: -1;
+}
+
+.six img:hover {
+    background-color: rgba(254, 248, 243, 1);
+    filter: grayscale(0);
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one p, .two p, .three p, .four p, .five p, .six p, .seven p {
+    color: rgba(254, 248, 243, 1);
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.one, .two, .three, .four, .five, .six, .seven {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-msg p {
+    padding: 10px;
+}
+
+.about {
+    margin: 40px auto 0 auto;
+}
+
+@media screen and (min-width: 800px) {
+    .about {
+        display: flex;
+        width: 80%;
+        margin: 40px auto 0 auto;
+    }
+
+    .about-img img {
+        margin-top: 40px;
+    }
+
+    form {
+        width: 40%;
+    }
+
+    .about-msg {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        margin: 0 0 20px 50px;
+        height: 480px;
+        overflow: hidden;
+    }
+
+    .about-msg p {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about-msg {
+        margin-left: 250px;
+    }
+
+    .about-img img {
+        margin-top: 30px;
+    }
+
+    form {
+       max-width: 400px;
+    }
+    .about-img {
+        margin-left: 100px;
+    }
+
+    .about-me {
+        color: rgba(254, 248, 243, 1);
+        margin-left: 150px;
+        letter-spacing: 2px;
+    
+    }
+}
