@@ -34,7 +34,7 @@ a:hover, a:focus {
 
 .btn-1 {
     background-color: #CEF09D;
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: 600;
     border: none;
 }
@@ -80,7 +80,7 @@ a:focus {
     font-size: 3rem;
 }
 
-.hero-name button, .hero-name a {
+.hero-name button {
     margin: 6px;
     padding: 7px 8px;
     width: 180px;
@@ -93,8 +93,19 @@ a:focus {
 .hero-name a {
     position: relative;
     left: 1px;
-    z-index: -1;
+    margin: 6px;
+    padding: 7px 8px;
+    width: 180px;
+    height: 42px;
+    border-radius: 3px;
+    z-index: 1;
+} 
+
+header {
+    position: relative;
+    z-index: 2;
 }
+
 
 .hero-name h2, .hero-name span {
     color: rgba(254, 248, 243, 0.7);
@@ -276,6 +287,7 @@ header .joel-nav {
         position: relative;
         top: 13px; */
         background-color: #282C35;
+        z-index: 5;
     }
 
     .sticky {

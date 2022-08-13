@@ -16,8 +16,6 @@ form h2 {
 
 .btn-2 {
     text-align: center;
-    position: relative;
-    left: 20px;
 }
 
 form input::placeholder {
